@@ -8,8 +8,7 @@ const Switch = React.forwardRef(({ className, ...props }, ref) => (
     className={cn(
       "peer inline-flex h-6 w-11 shrink-0 cursor-pointer items-center rounded-full border-2 border-transparent shadow-sm transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-primary focus-visible:ring-offset-2 focus-visible:ring-offset-background disabled:cursor-not-allowed disabled:opacity-50",
       "bg-gray-300 data-[state=checked]:bg-black",
-      className
-    )}
+      className)}
     {...props}
     ref={ref}
   >
